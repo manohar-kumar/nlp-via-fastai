@@ -1,0 +1,6 @@
+All Code 
+i) Install conda
+ii) conda update --all --yes
+iii) Copy Jupyter exe to start. Change target to contain folder where you will save notebooks.This is done by replacing %UserPRofile% with folder location of required
+
+
