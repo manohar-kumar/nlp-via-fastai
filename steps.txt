@@ -1,6 +1,14 @@
-All Code 
+Setting up jupyter in local Windows PC
 i) Install conda
 ii) conda update --all --yes
 iii) Copy Jupyter exe to start. Change target to contain folder where you will save notebooks.This is done by replacing %UserPRofile% with folder location of required
+
+
+Setting Up jupyter in azure vm
+i) Follow steps at https://course.fast.ai/start_azure.html
+ii) Start vm and then to access jupyter files go to https://{public-ip}:8000
+iii) Enter login and password of VM
+iv) Go into the notebooks directory and clone the course files via 'git clone https://github.com/fastai/course-nlp.git'
+v) Then access the directory in browser via step ii)
 
 
