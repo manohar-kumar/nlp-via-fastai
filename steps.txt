@@ -11,4 +11,9 @@ iii) Enter login and password of VM
 iv) Go into the notebooks directory and clone the course files via 'git clone https://github.com/fastai/course-nlp.git'
 v) Then access the directory in browser via step ii)
 
+vi) For installing packages to a specific kernel, in the jupyter notebook run commands as below (Thanks to https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/)
+
+    import sys
+    !conda install --yes --prefix {sys.prefix} scikit-learn scipy matplotlib
+  
 
