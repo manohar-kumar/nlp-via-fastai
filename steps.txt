@@ -17,3 +17,4 @@ vi) For installing packages to a specific kernel, in the jupyter notebook run co
     !conda install --yes --prefix {sys.prefix} scikit-learn scipy matplotlib
   
 
+vii) Always remember to shutdown the VM when done
