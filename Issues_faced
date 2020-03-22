@@ -1,0 +1,3 @@
+i) In 5-nn-imdb.ipynb,
+  cell#6 : torch.cuda.set_device(2)
+  This gives runtimeError. Changed deviceId to 0.
